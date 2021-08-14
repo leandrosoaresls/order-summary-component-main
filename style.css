@@ -5,8 +5,6 @@ body {
   font-family: "Red Hat Display", sans-serif;
 }
 
-
-
 .container__footer {
   position: fixed;
   left: 0;
@@ -61,12 +59,14 @@ h1 {
 
 .card-header__image {
   position: relative;
-  height: 220px;
+  height: 170px;
   border-radius: 14px 14px 0px 0px;
 }
 
 .card-header__image--hero {
   background-image: url("/images/illustration-hero.svg");
+  background-repeat: no-repeat;
+  background-size: 350px auto;
 }
 
 .card-body {
@@ -78,7 +78,7 @@ h1 {
 
 @media only screen and (min-width: 375px) {
   .card {
-    width: 452px;
+    width: 350px;
   }
   .container__image {
     position: relative;
