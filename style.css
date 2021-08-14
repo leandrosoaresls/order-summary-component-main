@@ -1,0 +1,104 @@
+body {
+  font-size: 16px;
+  background-color: #e0e8ff;
+  width: 100vw;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+
+
+.container__footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: hsl(223, 47%, 23%);
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card-body__plan--p1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.card-body__plan {
+  display: inline-block;
+  border-radius: 7px;
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+  background-color: #f8f9fe;
+}
+
+.text {
+  text-align: center;
+}
+
+.text p {
+  color: #9194a9;
+}
+
+.card {
+  margin: auto;
+  padding-top: 40px;
+  border-radius: 10px;
+  height: auto;
+}
+
+.card-header__image {
+  position: relative;
+  height: 220px;
+  border-radius: 14px 14px 0px 0px;
+}
+
+.card-header__image--hero {
+  background-image: url("/images/illustration-hero.svg");
+}
+
+.card-body {
+  padding: 40px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 0px 0px 14px 14px;
+}
+
+@media only screen and (min-width: 375px) {
+  .card {
+    width: 452px;
+  }
+  .container__image {
+    position: relative;
+    height: 437px;
+  }
+  .container__image--background {
+    background-image: url("/images/pattern-background-desktop.svg");
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .card {
+    width: 300px;
+  }
+  .container__image {
+    position: relative;
+    height: 194px;
+  }
+
+  .container__image--background {
+    background-image: url("/images/pattern-background-mobile.svg");
+  }
+}
